@@ -28,7 +28,7 @@ fileName = 'botHelper'
 '''Connecting To Database'''
 if mongoSTR:
     mongo_client = MongoClient(mongoSTR)
-    db_user = mongo_client['URL_Uploader']
+    db_user = mongo_client['TANJIRO URL UPLOADER']
     collection_user = db_user['members']
 
 '''Defining Some Functions'''
@@ -40,12 +40,12 @@ def line_number(fileName, e):
 #Checking User whether he joined channel and group or not joined.
 async def search_user_in_community(bot, update):
     try:
-        await bot.get_chat_member('@AJPyroVerse', update.chat.id)
-        await bot.get_chat_member('@AJPyroVerseGroup', update.chat.id)
+        await bot.get_chat_member('@sctbots', update.chat.id)
+        await bot.get_chat_member('@sctbotssupport', update.chat.id)
     except UserNotParticipant:
         await update.reply_text(BotMessage.not_joined_community, parse_mode = 'html',reply_markup=InlineKeyboardMarkup([
-        [InlineKeyboardButton('Join our Channel.',url = 'https://t.me/AJPyroVerse')],
-        [InlineKeyboardButton('Join our Group.',url = 'https://t.me/AJPyroVerseGroup')]
+        [InlineKeyboardButton('Join our Channel.',url = 'https://t.me/sctbots')],
+        [InlineKeyboardButton('Join our Group.',url = 'https://t.me/sctbotsSupport')]
         ]))
         return
     except exceptions.bad_request_400.ChatAdminRequired:
