@@ -32,3 +32,12 @@ Click Below Button to Deploy your Bot.
 <a href="http://t.me/sctbots"><img src="https://smartiblogster.com/wp-content/uploads/2021/03/smartiblogster-iblogster-join-telegram-channel.png" style="width: 300px; height: 100px"></a>
 
 <a href="http://t.me/sctbotsSupport"><img src="https://www.pngitem.com/pimgs/m/214-2144731_groups-on-telegram-telegram-group-link-png-transparent.png" style="width: 280px; height: 80px"></a>
+
+## Credits, and Thanks to
+
+*[harsha](https://t.me/harshahero)
+*[url uploader]
+(https://github.com/AJTimePyro/URL_Uploader_Bot)
+
+
+
