@@ -35,9 +35,9 @@ Click Below Button to Deploy your Bot.
 
 ## Credits, and Thanks to
 
-*[harsha](https://t.me/harshahero)
+*[harsha](https://t.me/harshahero) developer
 
-*[Base](https://github.com/AJTimePyro/URL_Uploader_Bot)
+*[Base](https://github.com/AJTimePyro/URL_Uploader_Bot) base of our repo
 
 
 
